@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event handler navigation</title>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1>Find your next book</h1>
+  <label for="query">Search books</label>
+  <input id="query" type="search" oninput="filterBooks()">
+  <button onclick="showResults()">Search</button>
+  <p id="results"></p>
+</body>
+</html>
+

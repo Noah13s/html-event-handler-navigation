@@ -1,0 +1,39 @@
+{
+  "name": "html-event-definition",
+  "displayName": "HTML Event Handler Navigation",
+  "description": "Go to definitions and see hover previews for JavaScript calls in HTML event attributes.",
+  "version": "0.1.0",
+  "publisher": "N04H",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html"
+  ],
+  "main": "./src/extension.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "package": "vsce package --githubBranch main"
+  },
+  "dependencies": {
+    "parse5": "^6.0.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
+  },
+  "icon": "media/icon-html-js.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noah13s/html-event-handler-navigation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Noah13s/html-event-handler-navigation/issues"
+  },
+  "homepage": "https://github.com/Noah13s/html-event-handler-navigation#readme"
+}
